@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row col-6 inputs">
+      <div class="dropdown">
+        <label>País:</label>
+          <select [(ngModel)]="paisEscolhido.id" (change)="onSelect($event.target)">
+            <option>--Escolha o País--</option>
+            <option *ngFor="let pais of paises?.paises" [value]="pais.id">{{pais.name}}</option>
+          </select>
+      </div>
+      <br>
+      <div class="dropdown">
+        <label>Cidades:</label>
+          <select>
+            <option>--Escolha a Cidade--</option>
+            <option *ngFor="let cidade of cidades" [value]="cidade.id">{{cidade.name}}</option>
+          </select>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+

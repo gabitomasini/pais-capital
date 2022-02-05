@@ -1,0 +1,83 @@
+{
+  "paises":[
+    {
+      "id": 1,
+      "name": "Brasil"
+    },
+    {
+      "id": 2,
+      "name": "USA"
+    },
+    {
+      "id": 3,
+      "name": "Canada"
+    },
+    {
+      "id": 4,
+      "name": "Inglaterra"
+    }
+  ],
+
+  "cidades":[
+    {
+      "id": 1,
+      "name": "São Paulo",
+      "pais_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Osasco",
+      "pais_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Vargem Grande Paulista",
+      "pais_id": 1
+    },
+    {
+      "id": 4,
+      "name": "New York",
+      "pais_id": 2
+    },
+    {
+      "id": 5,
+      "name": "São Francisco",
+      "pais_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Las Vegas",
+      "pais_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Vancouver",
+      "pais_id": 3
+    },
+    {
+      "id": 8,
+      "name": "Toronto",
+      "pais_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Montréal",
+      "pais_id": 3
+    },
+    {
+      "id": 10,
+      "name": "Londres",
+      "pais_id": 4
+    },
+    {
+      "id": 11,
+      "name": "Manchester",
+      "pais_id": 4
+    },
+    {
+      "id": 12,
+      "name": "Liverpool",
+      "pais_id": 4
+    }
+  ]
+}

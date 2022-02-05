@@ -1,0 +1,15 @@
+.inputs{
+  display: inline-flex;
+}
+
+.dropdown{
+  padding: 15px;
+}
+
+label{
+  padding-right: 10px;
+}
+
+select{
+  min-width: 180px;
+}
